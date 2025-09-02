@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e004150594cc9740362336d533bcd3ae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e004150594cc9740362336d533bcd3ae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e004150594cc9740362336d533bcd3ae = L.map(
+                "map_e004150594cc9740362336d533bcd3ae",
+                {
+                    center: [48.137154, 11.576124],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3e15beb9a0b3c03e9dee9c0feb313cdf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var marker_246c997599e234c6887956acf5d0ee63 = L.marker(
+                [48.1414, 11.567],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_58ffad912d8d088c9ff9431105e274c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_246c997599e234c6887956acf5d0ee63.setIcon(icon_58ffad912d8d088c9ff9431105e274c1);
+        
+    
+        var popup_2a6578a3d8b99d47e539d8b0d10d07f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_258e263c291ff376a24e31d4791150f1 = $(`<div id="html_258e263c291ff376a24e31d4791150f1" style="width: 100.0%; height: 100.0%;">Pacha Munich (Maximiliansplatz Cluster)</div>`)[0];
+            popup_2a6578a3d8b99d47e539d8b0d10d07f5.setContent(html_258e263c291ff376a24e31d4791150f1);
+        
+
+        marker_246c997599e234c6887956acf5d0ee63.bindPopup(popup_2a6578a3d8b99d47e539d8b0d10d07f5)
+        ;
+
+        
+    
+    
+            var marker_842b3d8024100abe5be07c5141fb2d7c = L.marker(
+                [48.1414, 11.5672],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_8a388931948b0d3ac42480d24e58da74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_842b3d8024100abe5be07c5141fb2d7c.setIcon(icon_8a388931948b0d3ac42480d24e58da74);
+        
+    
+        var popup_6a6f5f248231be4f77139798985b7256 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bea7db7ca8ed8e38ade771fcb65409e = $(`<div id="html_9bea7db7ca8ed8e38ade771fcb65409e" style="width: 100.0%; height: 100.0%;">Rote Sonne (Maximiliansplatz Cluster)</div>`)[0];
+            popup_6a6f5f248231be4f77139798985b7256.setContent(html_9bea7db7ca8ed8e38ade771fcb65409e);
+        
+
+        marker_842b3d8024100abe5be07c5141fb2d7c.bindPopup(popup_6a6f5f248231be4f77139798985b7256)
+        ;
+
+        
+    
+    
+            var marker_d222eea0082b89e04a7ec08ac6be5db4 = L.marker(
+                [48.1415, 11.5668],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_2e21b2b3351e1e01c161342e23d747b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d222eea0082b89e04a7ec08ac6be5db4.setIcon(icon_2e21b2b3351e1e01c161342e23d747b6);
+        
+    
+        var popup_309845fee4f6a0696f940f4ce57b609e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b30cb6986f4c19177ed9b47b6a8576e2 = $(`<div id="html_b30cb6986f4c19177ed9b47b6a8576e2" style="width: 100.0%; height: 100.0%;">089 Bar (Maximiliansplatz Cluster)</div>`)[0];
+            popup_309845fee4f6a0696f940f4ce57b609e.setContent(html_b30cb6986f4c19177ed9b47b6a8576e2);
+        
+
+        marker_d222eea0082b89e04a7ec08ac6be5db4.bindPopup(popup_309845fee4f6a0696f940f4ce57b609e)
+        ;
+
+        
+    
+    
+            var marker_f124cd8d0bec24f3e3cbee2f2f7e150b = L.marker(
+                [48.1417, 11.5535],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_589b248322eaf7c57fb1b7335df115f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f124cd8d0bec24f3e3cbee2f2f7e150b.setIcon(icon_589b248322eaf7c57fb1b7335df115f5);
+        
+    
+        var popup_2846ce24dbce1f966c0e91429c9c9df8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea0ced2d4f3c0bd6590ecdbd26e235ab = $(`<div id="html_ea0ced2d4f3c0bd6590ecdbd26e235ab" style="width: 100.0%; height: 100.0%;">Palais Club (Altstadtring / Zentrum)</div>`)[0];
+            popup_2846ce24dbce1f966c0e91429c9c9df8.setContent(html_ea0ced2d4f3c0bd6590ecdbd26e235ab);
+        
+
+        marker_f124cd8d0bec24f3e3cbee2f2f7e150b.bindPopup(popup_2846ce24dbce1f966c0e91429c9c9df8)
+        ;
+
+        
+    
+    
+            var marker_8484c68acf9e4beae8841bd7be2fa813 = L.marker(
+                [48.1418, 11.5537],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_d490d575171be1f704d6ec15e38df857 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8484c68acf9e4beae8841bd7be2fa813.setIcon(icon_d490d575171be1f704d6ec15e38df857);
+        
+    
+        var popup_89a18eeb60b07adba7a40b5528d78704 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a03f882e9edceec82fdc641b9ccb00fb = $(`<div id="html_a03f882e9edceec82fdc641b9ccb00fb" style="width: 100.0%; height: 100.0%;">Neuraum (Altstadtring / Zentrum)</div>`)[0];
+            popup_89a18eeb60b07adba7a40b5528d78704.setContent(html_a03f882e9edceec82fdc641b9ccb00fb);
+        
+
+        marker_8484c68acf9e4beae8841bd7be2fa813.bindPopup(popup_89a18eeb60b07adba7a40b5528d78704)
+        ;
+
+        
+    
+    
+            var marker_a781ee75624d4b5449c7c3a78d7088bc = L.marker(
+                [48.1293, 11.5836],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_3a02df164860e52f4d03b98a714c3d03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a781ee75624d4b5449c7c3a78d7088bc.setIcon(icon_3a02df164860e52f4d03b98a714c3d03);
+        
+    
+        var popup_6c5d8bb540114a285c1f345ec978a1db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1655cddc53d2785ff3f50d4d37716c33 = $(`<div id="html_1655cddc53d2785ff3f50d4d37716c33" style="width: 100.0%; height: 100.0%;">Blitz Club (Altstadtring / Zentrum)</div>`)[0];
+            popup_6c5d8bb540114a285c1f345ec978a1db.setContent(html_1655cddc53d2785ff3f50d4d37716c33);
+        
+
+        marker_a781ee75624d4b5449c7c3a78d7088bc.bindPopup(popup_6c5d8bb540114a285c1f345ec978a1db)
+        ;
+
+        
+    
+    
+            var marker_2ef2736bc775dd82c669dcb1a63c5ba7 = L.marker(
+                [48.1404, 11.5742],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_dd8cd5c1953f0865e4dc375458507f6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ef2736bc775dd82c669dcb1a63c5ba7.setIcon(icon_dd8cd5c1953f0865e4dc375458507f6b);
+        
+    
+        var popup_46368ed152ab4b8c777974c79f0e629a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4ce7899874efc35aefd5a4732b0fabf = $(`<div id="html_a4ce7899874efc35aefd5a4732b0fabf" style="width: 100.0%; height: 100.0%;">Call Me Drella (Altstadtring / Zentrum)</div>`)[0];
+            popup_46368ed152ab4b8c777974c79f0e629a.setContent(html_a4ce7899874efc35aefd5a4732b0fabf);
+        
+
+        marker_2ef2736bc775dd82c669dcb1a63c5ba7.bindPopup(popup_46368ed152ab4b8c777974c79f0e629a)
+        ;
+
+        
+    
+    
+            var marker_e88b35a72d20b037a25db04aea84bcd5 = L.marker(
+                [48.138, 11.5651],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_3896078321bd67103c9c15145fb9bf6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e88b35a72d20b037a25db04aea84bcd5.setIcon(icon_3896078321bd67103c9c15145fb9bf6a);
+        
+    
+        var popup_2921fe294994ae9d45c464e3601e5da5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f717d8ca73c14df36fc97d89a4e98c9 = $(`<div id="html_5f717d8ca73c14df36fc97d89a4e98c9" style="width: 100.0%; height: 100.0%;">Milchbar (Altstadtring / Zentrum)</div>`)[0];
+            popup_2921fe294994ae9d45c464e3601e5da5.setContent(html_5f717d8ca73c14df36fc97d89a4e98c9);
+        
+
+        marker_e88b35a72d20b037a25db04aea84bcd5.bindPopup(popup_2921fe294994ae9d45c464e3601e5da5)
+        ;
+
+        
+    
+    
+            var marker_2d1970b7a14c69425f453f106602a320 = L.marker(
+                [48.1319, 11.5703],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_a0de19a5c327f40ee1b6c21f98f47ef9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d1970b7a14c69425f453f106602a320.setIcon(icon_a0de19a5c327f40ee1b6c21f98f47ef9);
+        
+    
+        var popup_de9a3e8790606a4f65a707c98b408468 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5804cfdab13ed5c65987dcf4f758926b = $(`<div id="html_5804cfdab13ed5c65987dcf4f758926b" style="width: 100.0%; height: 100.0%;">Pimpernel (Glockenbachviertel / Sendlinger Tor)</div>`)[0];
+            popup_de9a3e8790606a4f65a707c98b408468.setContent(html_5804cfdab13ed5c65987dcf4f758926b);
+        
+
+        marker_2d1970b7a14c69425f453f106602a320.bindPopup(popup_de9a3e8790606a4f65a707c98b408468)
+        ;
+
+        
+    
+    
+            var marker_3d6968e438379dd1b331a187527e2ed7 = L.marker(
+                [48.1321, 11.5705],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_15b70629803c78b565cb84b297190dee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d6968e438379dd1b331a187527e2ed7.setIcon(icon_15b70629803c78b565cb84b297190dee);
+        
+    
+        var popup_3c5b1206d579a424cf27cc18ae7ac1ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2604980950359dac5c0f9a90dd4e0317 = $(`<div id="html_2604980950359dac5c0f9a90dd4e0317" style="width: 100.0%; height: 100.0%;">NY.Club (Glockenbachviertel / Sendlinger Tor)</div>`)[0];
+            popup_3c5b1206d579a424cf27cc18ae7ac1ff.setContent(html_2604980950359dac5c0f9a90dd4e0317);
+        
+
+        marker_3d6968e438379dd1b331a187527e2ed7.bindPopup(popup_3c5b1206d579a424cf27cc18ae7ac1ff)
+        ;
+
+        
+    
+    
+            var marker_ea8e6ab1db470d2437e899ab720c2187 = L.marker(
+                [48.131, 11.5668],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_cc263a00b42c87e756c89f07668acaa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea8e6ab1db470d2437e899ab720c2187.setIcon(icon_cc263a00b42c87e756c89f07668acaa9);
+        
+    
+        var popup_a3b93645ed7c18559ba96bf9713662d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8811d9fc224c3dfdafdb291f446dbf11 = $(`<div id="html_8811d9fc224c3dfdafdb291f446dbf11" style="width: 100.0%; height: 100.0%;">LEGAL House Club (Glockenbachviertel / Sendlinger Tor)</div>`)[0];
+            popup_a3b93645ed7c18559ba96bf9713662d8.setContent(html_8811d9fc224c3dfdafdb291f446dbf11);
+        
+
+        marker_ea8e6ab1db470d2437e899ab720c2187.bindPopup(popup_a3b93645ed7c18559ba96bf9713662d8)
+        ;
+
+        
+    
+    
+            var marker_1ccbbfb99817e600a6794b815e8f5a9f = L.marker(
+                [48.1276, 11.609],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_ee0050f95132256fcc6a728b2d3fddcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1ccbbfb99817e600a6794b815e8f5a9f.setIcon(icon_ee0050f95132256fcc6a728b2d3fddcc);
+        
+    
+        var popup_11857ed1eeef50317a33e835e85176b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c726ac5f528bdd7b71bd5286e09ba852 = $(`<div id="html_c726ac5f528bdd7b71bd5286e09ba852" style="width: 100.0%; height: 100.0%;">MH5 (Kunstpark Ost / Werksviertel)</div>`)[0];
+            popup_11857ed1eeef50317a33e835e85176b9.setContent(html_c726ac5f528bdd7b71bd5286e09ba852);
+        
+
+        marker_1ccbbfb99817e600a6794b815e8f5a9f.bindPopup(popup_11857ed1eeef50317a33e835e85176b9)
+        ;
+
+        
+    
+    
+            var marker_ff303cbb9e3329d794f523ba26d93bbd = L.marker(
+                [48.1275, 11.6085],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_9264714bcca8bd16123fc4b22eee55ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ff303cbb9e3329d794f523ba26d93bbd.setIcon(icon_9264714bcca8bd16123fc4b22eee55ff);
+        
+    
+        var popup_260561b3fbf8bf19a7805d51dc9180de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82047fdd638cd3895ca9516d1a0b4687 = $(`<div id="html_82047fdd638cd3895ca9516d1a0b4687" style="width: 100.0%; height: 100.0%;">ABC (Kunstpark Ost / Werksviertel)</div>`)[0];
+            popup_260561b3fbf8bf19a7805d51dc9180de.setContent(html_82047fdd638cd3895ca9516d1a0b4687);
+        
+
+        marker_ff303cbb9e3329d794f523ba26d93bbd.bindPopup(popup_260561b3fbf8bf19a7805d51dc9180de)
+        ;
+
+        
+    
+    
+            var marker_7981911c7252edb21f840f0e1bb88606 = L.marker(
+                [48.1237, 11.5582],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_e33ae603d2e09779f0a4437cd64dde8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7981911c7252edb21f840f0e1bb88606.setIcon(icon_e33ae603d2e09779f0a4437cd64dde8d);
+        
+    
+        var popup_fb9e7b46d61d8c70e90e483f35ec1a1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa5ed0414fd7c5db8f5680c3ba5d629b = $(`<div id="html_fa5ed0414fd7c5db8f5680c3ba5d629b" style="width: 100.0%; height: 100.0%;">Bahnwärter Thiel (West / Schlachthofviertel)</div>`)[0];
+            popup_fb9e7b46d61d8c70e90e483f35ec1a1c.setContent(html_fa5ed0414fd7c5db8f5680c3ba5d629b);
+        
+
+        marker_7981911c7252edb21f840f0e1bb88606.bindPopup(popup_fb9e7b46d61d8c70e90e483f35ec1a1c)
+        ;
+
+        
+    
+    
+            var marker_5d9b7434175a120512a63d72498aa351 = L.marker(
+                [48.158, 11.5506],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_7323dd68d89a6c14000772651cb1fd4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5d9b7434175a120512a63d72498aa351.setIcon(icon_7323dd68d89a6c14000772651cb1fd4d);
+        
+    
+        var popup_890854b8f08d6f1115db77da5529735b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea1be9bfe57f72478f1f76fe88ee3824 = $(`<div id="html_ea1be9bfe57f72478f1f76fe88ee3824" style="width: 100.0%; height: 100.0%;">Import Export (West / Schlachthofviertel)</div>`)[0];
+            popup_890854b8f08d6f1115db77da5529735b.setContent(html_ea1be9bfe57f72478f1f76fe88ee3824);
+        
+
+        marker_5d9b7434175a120512a63d72498aa351.bindPopup(popup_890854b8f08d6f1115db77da5529735b)
+        ;
+
+        
+    
+    
+            var marker_a95d75ae459a5d9a20cecbf05c57045b = L.marker(
+                [48.1575, 11.557],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_f028442a2708d41957ac5344a4868181 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a95d75ae459a5d9a20cecbf05c57045b.setIcon(icon_f028442a2708d41957ac5344a4868181);
+        
+    
+        var popup_8d65cb7a939b6bbdd0df540b407db738 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_494b262e332a729809277200b5d65cb4 = $(`<div id="html_494b262e332a729809277200b5d65cb4" style="width: 100.0%; height: 100.0%;">Goldener Reiter (West / Schlachthofviertel)</div>`)[0];
+            popup_8d65cb7a939b6bbdd0df540b407db738.setContent(html_494b262e332a729809277200b5d65cb4);
+        
+
+        marker_a95d75ae459a5d9a20cecbf05c57045b.bindPopup(popup_8d65cb7a939b6bbdd0df540b407db738)
+        ;
+
+        
+    
+    
+            var marker_0107c35332ac7bb4cdd4b390e3d5b327 = L.marker(
+                [48.149, 11.573],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_89bca09e12762fae62b61fe9b404314a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_0107c35332ac7bb4cdd4b390e3d5b327.setIcon(icon_89bca09e12762fae62b61fe9b404314a);
+        
+    
+        var popup_fd5d8af0dcde19f022d29b2963338754 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b770940b19e7bae9eb597653e5edd3ea = $(`<div id="html_b770940b19e7bae9eb597653e5edd3ea" style="width: 100.0%; height: 100.0%;">Sweet Club (Einzelgänger / Maxvorstadt)</div>`)[0];
+            popup_fd5d8af0dcde19f022d29b2963338754.setContent(html_b770940b19e7bae9eb597653e5edd3ea);
+        
+
+        marker_0107c35332ac7bb4cdd4b390e3d5b327.bindPopup(popup_fd5d8af0dcde19f022d29b2963338754)
+        ;
+
+        
+    
+    
+            var marker_9757459674c775679539e108989f7e44 = L.marker(
+                [48.1396, 11.527],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_2a969573132f667d5a0150cd4e756616 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_9757459674c775679539e108989f7e44.setIcon(icon_2a969573132f667d5a0150cd4e756616);
+        
+    
+        var popup_d990cca92e751d74efc2df64ac9321eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdef6f13c8ee9de87088326624d784bc = $(`<div id="html_fdef6f13c8ee9de87088326624d784bc" style="width: 100.0%; height: 100.0%;">DNA (Einzelgänger / Landsbergerstr.)</div>`)[0];
+            popup_d990cca92e751d74efc2df64ac9321eb.setContent(html_fdef6f13c8ee9de87088326624d784bc);
+        
+
+        marker_9757459674c775679539e108989f7e44.bindPopup(popup_d990cca92e751d74efc2df64ac9321eb)
+        ;
+
+        
+    
+    
+            var marker_a8520161e33df841de665b4288ff49cf = L.marker(
+                [48.142, 11.5628],
+                {}
+            ).addTo(map_e004150594cc9740362336d533bcd3ae);
+        
+    
+            var icon_9ad186d3f35a554ed04f3b762168edef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_a8520161e33df841de665b4288ff49cf.setIcon(icon_9ad186d3f35a554ed04f3b762168edef);
+        
+    
+        var popup_147f1b4d4aa7e02338d098b2cdd8d86a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3a3a6048e7a14bfd7afa86509dfd0a8 = $(`<div id="html_c3a3a6048e7a14bfd7afa86509dfd0a8" style="width: 100.0%; height: 100.0%;">MMA Club (Einzelgänger / Hauptbahnhof Nähe)</div>`)[0];
+            popup_147f1b4d4aa7e02338d098b2cdd8d86a.setContent(html_c3a3a6048e7a14bfd7afa86509dfd0a8);
+        
+
+        marker_a8520161e33df841de665b4288ff49cf.bindPopup(popup_147f1b4d4aa7e02338d098b2cdd8d86a)
+        ;
+
+        
+    
+</script>
+</html>
